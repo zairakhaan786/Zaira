@@ -1,0 +1,64 @@
+.github-section {
+  padding: 4rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.github-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.github-link {
+  font-family: 'Fira Code', monospace;
+  color: var(--accent);
+  font-size: 1.1rem;
+  align-self: flex-start;
+  border-bottom: 1px dashed var(--accent);
+}
+
+.github-link:hover {
+  color: var(--accent-hover);
+  border-bottom-style: solid;
+}
+
+.github-stats-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stat-card h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.chart-container {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.gh-chart {
+  min-width: 700px;
+  width: 100%;
+}
+
+.stats-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.stats-img {
+  max-width: 100%;
+  height: auto;
+}
