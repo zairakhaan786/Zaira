@@ -25,6 +25,8 @@
 
 ## 👩‍💻 About Me
 
+![About Screenshot](./assets/about.png)
+
 I am a **Computer Science Engineer** specializing in Artificial Intelligence, Machine Learning, Software Engineering, and Data Science. I bridge the gap between complex AI research and production-ready applications, leveraging modern software engineering practices to solve real-world problems. 
 
 Outside of development, I enjoy exploring AI research, writing technical articles, building innovative side projects, and continuously learning emerging technologies.
