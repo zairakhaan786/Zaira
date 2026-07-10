@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profile.png';
 
 const About = () => {
   const technologies = [

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/zairakhaan786.png" width="150" height="150" style="border-radius: 50%; border: 3px solid #22D3EE; margin-bottom: 20px;" alt="Zaira Khan" />
+  <img src="./src/assets/profile.png" width="150" height="150" style="border-radius: 50%; border: 3px solid #22D3EE; margin-bottom: 20px;" alt="Zaira Khan" />
   
   # Zaira Khan | AI & Machine Learning Engineer
 
