@@ -43,7 +43,7 @@ const Hero = () => {
             <FiFolder className="btn-icon" />
             View Projects
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn-secondary">
+          <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noreferrer" className="btn-secondary">
             <FiDownload className="btn-icon" />
             Download Resume
           </a>

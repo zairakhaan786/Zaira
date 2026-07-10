@@ -65,8 +65,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 2rem 4rem;
-  background: linear-gradient(to top, var(--bg-surface) 10%, transparent);
+  padding: 3rem 4rem 2rem 4rem;
+  background: linear-gradient(to top, var(--bg-main) 10%, rgba(17, 24, 39, 0.8) 60%, transparent);
   text-align: center;
   display: flex;
   flex-direction: column;

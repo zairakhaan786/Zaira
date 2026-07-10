@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import { FiExternalLink, FiGithub, FiFolder, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import virtualHumanImg from '../assets/virtual_human.png';
+import genaiChatbotImg from '../assets/genai_chatbot.png';
 
 const Projects = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -10,13 +12,13 @@ const Projects = () => {
       title: "Virtual Human Clone",
       description: "An AI-powered digital human capable of realistic conversations, memory, personality, facial appearance, and voice cloning.",
       tech: ["Python", "FastAPI", "React", "LLMs", "AWS"],
-      image: "/virtual_human.png"
+      image: virtualHumanImg
     },
     {
       title: "GenAI Banking Support",
       description: "Enterprise chatbot using Retrieval-Augmented Generation and semantic document search.",
       tech: ["LangChain", "ChromaDB", "FastAPI", "AWS"],
-      image: "/genai_chatbot.png"
+      image: genaiChatbotImg
     }
   ];
 

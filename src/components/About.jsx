@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import profileImg from '../assets/profile.jpg';
 
 const About = () => {
   const technologies = [
@@ -34,7 +35,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-image-wrapper">
-          <img src="/profile.jpg" alt="Zaira Khan" className="profile-image" />
+          <img src={profileImg} alt="Zaira Khan" className="profile-image" />
           <div className="image-glow-backdrop"></div>
         </div>
       </div>
